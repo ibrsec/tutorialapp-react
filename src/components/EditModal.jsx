@@ -5,8 +5,8 @@ import Swal from "sweetalert2";
 const EditModal = ({ editItem, getTutors }) => {
 
 
-  const [title, setTitle] = useState( editItem?.title);
-  const [description, setDescription] = useState(editItem?.description);
+  const [title, setTitle] = useState( "");
+  const [description, setDescription] = useState("");
 
     useEffect(() => {
         setTitle(editItem?.title)
@@ -65,6 +65,9 @@ if(newTutor.title != editItem?.title ||
     newTutor.description != editItem?.description){
         editTutor(editItem?.id,newTutor);
         
+    //remove form inputs' content
+    setTitle("");
+    setDescription("");
 
     }else{
         Swal.fire({
@@ -74,13 +77,11 @@ if(newTutor.title != editItem?.title ||
             showConfirmButton: false,
             timer: 1200,
           });
+ 
     } 
 
 
 
-    //remove form inputs' content
-    setTitle("");
-    setDescription("");
 
 
    

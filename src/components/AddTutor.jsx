@@ -81,6 +81,7 @@ const AddTutor = ({getTutors}) => {
             id="exampleInputEmail1"
             value={title}
             onChange={(e) => setTitle(e.target.value)}
+            placeholder="Enter your title"
           />
         </div>
         <div className="mb-3">
@@ -94,6 +95,7 @@ const AddTutor = ({getTutors}) => {
             required
             value={description}
             onChange={(e) => setDescription(e.target.value)}
+            placeholder="Enter your description"
           />
         </div>
 
