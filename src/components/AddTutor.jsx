@@ -31,7 +31,7 @@ const AddTutor = ({getTutors}) => {
       showConfirmButton: false,
       timer: 1200
     });
-    
+
     } catch (error) {
 
       Swal.fire({
@@ -72,7 +72,7 @@ const AddTutor = ({getTutors}) => {
       <form className="container py-4 text-success" onSubmit={handleSubmit}>
         <h1>Add Your Tutorial</h1>
         <div className="mb-3  ">
-          <label htmlfor="exampleInputEmail1" className="form-label">
+          <label htmlFor="exampleInputEmail1" className="form-label">
             Title
           </label>
           <input
@@ -84,7 +84,7 @@ const AddTutor = ({getTutors}) => {
           />
         </div>
         <div className="mb-3">
-          <label htmlfor="exampleInputPassword1" className="form-label">
+          <label htmlFor="exampleInputPassword1" className="form-label">
             Description
           </label>
           <input

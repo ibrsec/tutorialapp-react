@@ -94,7 +94,7 @@ if(newTutor.title != editItem?.title ||
       <div
         className="modal fade"
         id="editModal"
-        tabindex="-1"
+        tabIndex="-1"
         aria-labelledby="exampleModalLabel"
         aria-hidden="true"
       >
@@ -114,7 +114,7 @@ if(newTutor.title != editItem?.title ||
             <div className="modal-body">
               <form className="py-4 " onSubmit={handleSubmit}>
                 <div className="mb-3 text-start ">
-                  <label htmlfor="exampleInputEmail1" className="form-label">
+                  <label htmlFor="exampleInputEmail1" className="form-label">
                     Title
                   </label>
                   <input
@@ -126,7 +126,7 @@ if(newTutor.title != editItem?.title ||
                   />
                 </div>
                 <div className="mb-3 text-start">
-                  <label htmlfor="exampleInputPassword1" className="form-label">
+                  <label htmlFor="exampleInputPassword1" className="form-label">
                     Description
                   </label>
                   <input
