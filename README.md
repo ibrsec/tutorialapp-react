@@ -63,7 +63,7 @@
 <a name="about-the-project"></a>
 ## ℹ️ About The Project
 
-[![tutorialapp-react](./src/img/project.png)](https://tutorialapp-react.vercel.app/)
+[![tutorialapp-react](./public/project.png)](https://tutorialapp-react.vercel.app/)
 
 
 
